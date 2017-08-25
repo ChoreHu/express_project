@@ -2,9 +2,9 @@ var express = require("express");
 var app = express();
 //3.router
 //对网站首页的访问返回"Hello World"
-// app.get('/', function (req, res) {
-//     res.send('Hello World!');
-// })
+app.get('/', function (req, res) {
+    res.send('Hello World!');
+})
 
 //网站首页接受 POST 请求
 app.post('/', function(req, res) {
